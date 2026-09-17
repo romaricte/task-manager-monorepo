@@ -42,6 +42,9 @@ Cette organisation permet de partager les mêmes données entre le web et le mob
 - **Tailwind CSS** gère la mise en forme et l'affichage responsive.
 - **TanStack Query** gère le chargement, le cache et l'actualisation des tâches après une modification.
 - Les routes serveur Next.js servent de relais vers Spring Boot. Elles conservent le JWT dans un cookie `HttpOnly`, afin qu'il ne soit pas directement accessible au JavaScript du navigateur.
+<img width="1719" height="962" alt="Capture d’écran 2026-09-17 à 16 03 24" src="https://github.com/user-attachments/assets/29567884-70a3-494a-8694-1cc2d879ffac" />
+<img width="1719" height="962" alt="Capture d’écran 2026-09-17 à 16 10 05" src="https://github.com/user-attachments/assets/46e41371-7353-4ce8-8f52-91ab4b062f76" />
+
 
 ### Mobile — Flutter
 
@@ -49,6 +52,11 @@ Cette organisation permet de partager les mêmes données entre le web et le mob
 - **Dio** effectue les appels HTTP vers la même API Spring Boot que le frontend web.
 - **Flutter BLoC** sépare l'état de l'interface des appels réseau et des règles de présentation.
 - **Flutter Secure Storage** conserve le JWT dans le stockage sécurisé de l'appareil.
+<img width="1280" height="2856" alt="Screenshot_1789657825" src="https://github.com/user-attachments/assets/2b4309b7-467a-456a-a1f6-01d2093edb2f" />
+<img width="1280" height="2856" alt="Screenshot_1789657903" src="https://github.com/user-attachments/assets/4f36ac5c-ab7f-4803-a65f-87de0362f156" />
+<img width="1280" height="2856" alt="Screenshot_1789657956" src="https://github.com/user-attachments/assets/58c1edce-c005-403d-ab2c-cf76ee9d4c81" />
+
+
 
 ### Docker et automatisation
 
