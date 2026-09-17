@@ -1,4 +1,4 @@
-# Momentum — Frontend Task Manager
+# Task manager — Frontend Task Manager
 
 Interface Next.js du gestionnaire de tâches, connectée à l'API Spring Boot du dossier `../task-manager`.
 

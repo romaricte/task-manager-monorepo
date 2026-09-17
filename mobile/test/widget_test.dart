@@ -23,7 +23,7 @@ void main() {
     );
     await tester.pumpAndSettle();
 
-    expect(find.text('momentum'), findsOneWidget);
+    expect(find.text('Task manager'), findsOneWidget);
     expect(find.text('Bon retour'), findsOneWidget);
     expect(find.byType(TextFormField), findsNWidgets(2));
     expect(find.text('Se connecter'), findsOneWidget);

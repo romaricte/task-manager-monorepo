@@ -36,7 +36,7 @@ class MomentumBrand extends StatelessWidget {
         ),
         const SizedBox(width: 10),
         Text(
-          'momentum',
+          'Task manager',
           style: TextStyle(
             color: light ? Colors.white : AppColors.ink,
             fontSize: compact ? 19 : 22,

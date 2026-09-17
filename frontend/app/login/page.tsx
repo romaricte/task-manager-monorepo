@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { AuthForm } from "@/components/auth-form";
 
-export const metadata: Metadata = { title: "Connexion — Momentum" };
+export const metadata: Metadata = { title: "Connexion — Task manager" };
 
 export default function LoginPage() {
   return <AuthForm mode="login" />;

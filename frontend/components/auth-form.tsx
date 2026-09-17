@@ -60,7 +60,7 @@ export function AuthForm({ mode }: AuthFormProps) {
 
   return (
     <main className="auth-shell">
-      <section className="auth-story" aria-label="Présentation de Momentum">
+      <section className="auth-story" aria-label="Présentation de Task manager">
         <Brand inverse />
         <div className="auth-story-copy">
           <span className="story-kicker">Votre espace, votre rythme.</span>
@@ -141,7 +141,7 @@ export function AuthForm({ mode }: AuthFormProps) {
           </form>
 
           <p className="auth-switch">
-            {isRegister ? "Déjà un compte ?" : "Nouveau sur Momentum ?"}{" "}
+            {isRegister ? "Déjà un compte ?" : "Nouveau sur Task manager ?"}{" "}
             <Link href={isRegister ? "/login" : "/register"}>{isRegister ? "Se connecter" : "Créer un compte"}</Link>
           </p>
         </div>

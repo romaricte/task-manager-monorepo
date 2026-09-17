@@ -1,4 +1,4 @@
-# Momentum — Application mobile Flutter
+# Task manager — Application mobile Flutter
 
 Client mobile du gestionnaire de tâches, connecté à la même API Spring Boot et à la même base MySQL que l'interface web.
 

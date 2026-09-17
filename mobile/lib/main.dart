@@ -45,7 +45,7 @@ class MomentumApp extends StatelessWidget {
         BlocProvider(create: (_) => TasksBloc(taskRepository)),
       ],
       child: MaterialApp(
-        title: 'Momentum',
+        title: 'Task manager',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light,
         home: const _AppGate(),
